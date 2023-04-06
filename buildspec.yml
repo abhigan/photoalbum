@@ -1,0 +1,10 @@
+version: 0.2
+#ref: https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html
+        
+phases:
+  install:
+    runtime-versions:
+      nodejs: 16
+  pre_build:
+    commands:
+      - npm install
