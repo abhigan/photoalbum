@@ -1,0 +1,44 @@
+{
+    "invocationSchemaVersion": "1.0",
+    "invocationId": "YXNkbGZqYWRmaiBhc2RmdW9hZHNmZGpmaGFzbGtkaGZza2RmaAo",
+    "job": {
+      "id": "f3cc4f60-61f6-4a2b-8a21-d07600c373ce"
+    },
+    "tasks": [
+      {
+        "//": "not in google photos",
+        "taskId": "dGFza2lkZ29lc2hlcmUK",
+        "s3BucketArn": "arn:aws:s3:::gw.googlebackups",
+        "s3Key": "2023-03/Takeout/Google+Potatos/Photos+from+2023/20230224_072517.jpg",
+        "s3VersionId": null
+      },
+      {
+        "//": "a normal google photo",
+        "taskId": "dGFza2lkZ29lc2hlcmUK",
+        "s3BucketArn": "arn:aws:s3:::gw.googlebackups",
+        "s3Key": "2021-04/Takeout/Google+Photos/Photos+from+2020/20200215_181038.jpg",
+        "s3VersionId": null
+      },
+      {
+        "//": "same photo existing at different location",
+        "taskId": "dGFza2lkZ29lc2hlcmUK",
+        "s3BucketArn": "arn:aws:s3:::gw.googlebackups",
+        "s3Key": "2023-03/Takeout/Google+Photos/Photos+from+2020/20200215_181038.jpg",
+        "s3VersionId": null
+      },
+      {
+        "//": "unknown file type",
+        "taskId": "dGFza2lkZ29lc2hlcmUK",
+        "s3BucketArn": "arn:aws:s3:::gw.googlebackups",
+        "s3Key": "2023-03/Takeout/Google+Photos/Photos+from+2023/20230224_072517.somethingweird",
+        "s3VersionId": null
+      },
+      {
+        "//": "metadata of - a normal google photo",
+        "taskId": "dGFza2lkZ29lc2hlcmUK",
+        "s3BucketArn": "arn:aws:s3:::gw.googlebackups",
+        "s3Key": "2021-04/Takeout/Google+Photos/Photos+from+2020/20200215_181038.jpg.json",
+        "s3VersionId": null
+      }
+    ]
+  }
