@@ -1,0 +1,116 @@
+{
+    "Records": [
+      {
+        "messageId": "3a6885ce-b4b2-4742-9738-d8bb72e03162",
+        "receiptHandle": "AQEBfA74pavzfaTSWRwxzhP080khjpunemuCgePWkm4P1aMC6i71Q8XazTunU/obandnpZkHHCVX91LmUzORFu7dV9TtJdSP+8hzYIg2qzBi287fp985TY9FICLN2R8qwQXAGQFX32Z4hoRAmoHOwCXbTNRq/gQE2ehUrQS98doAGGdqPtWPwgdevnt2h+HRHI2nyFQM8keUkYgaK1g53lxiRdVoeQMz9ss/o5HGzjSRHvzM9dbZPba+7BZKy8HKM/Mqm4cD/IsyiU6X+Eb3OWKOWu0lpM1Nj/9mdBcXeg4DxXqhq4IWEcMsytl1m9/BeTPvEar/gokSMeZrTiUBU64na27NbD+Cbqy1QBn+4CfVab12GLcyNZLF6xcIdvPhctBPj7RlzTSET4pddAV1QRnYfQ==",
+        "body": "{\"Records\":[{\"eventVersion\":\"2.1\",\"eventSource\":\"aws:s3\",\"awsRegion\":\"ap-south-1\",\"eventTime\":\"2023-03-09T02:20:56.570Z\",\"eventName\":\"ObjectCreated:Put\",\"userIdentity\":{\"principalId\":\"A2YG7L61S4020A\"},\"requestParameters\":{\"sourceIPAddress\":\"110.227.75.99\"},\"responseElements\":{\"x-amz-request-id\":\"4XG848M713BM30K7\",\"x-amz-id-2\":\"5PHoYO/t+lCr+nSYLg8wOLqRU/Th7OA7V8RjDsvAQN+K+EtQuoYFu8ySbvdmkYtnnl5EqBNyEzNQ/tYRz0oe9WVefTis9783LrlQnkIP9s0=\"},\"s3\":{\"s3SchemaVersion\":\"1.0\",\"configurationId\":\"googlebackups-crud-to-sqs\",\"bucket\":{\"name\":\"gw.googlebackups\",\"ownerIdentity\":{\"principalId\":\"A2YG7L61S4020A\"},\"arn\":\"arn:aws:s3:::gw.googlebackups\"},\"object\":{\"key\":\"2023-03/Takeout/Google+Photos/Lansdowne+-+2019/20191027_213636.jpg.json\",\"size\":987,\"eTag\":\"efc424293434c21ce4b61e168c52e61f\",\"versionId\":\"gjGVG.i0YjEKc4QD45vk_6077fCxvQcS\",\"sequencer\":\"00640942888B10B9A4\"}}}]}",
+        "attributes": {
+          "ApproximateReceiveCount": "4",
+          "SentTimestamp": "1678328457220",
+          "SenderId": "AIDAJNNKV2HIAN5AMAKHG",
+          "ApproximateFirstReceiveTimestamp": "1678328457220"
+        },
+        "messageAttributes": {},
+        "md5OfBody": "d18777a511170c4562092afcb8ebddd8",
+        "eventSource": "aws:sqs",
+        "eventSourceARN": "arn:aws:sqs:ap-south-1:975795997058:googlebackups-crud",
+        "awsRegion": "ap-south-1"
+      },
+      {
+        "messageId": "970bb14f-f95f-49c1-952f-971d924cd2fe",
+        "receiptHandle": "AQEBO9RgUmBPKScojvKazuQlstZxhjwcCVBG4el+IgBBfIJR2lIcXhgBSHYCTm0N3L2AkBevc0Xfv7ZGIW5W3R0YUEsOeJAx1SYC187bx2WXy44AMXiqxPNW1cEY9ZGnsov13y2qKH2vRx8bNZBfULiERnTlJScyZaSasaCks0dfa3oCQL4UEp2kJQddUYfUJCojbt/2ExrBdZCzrsv6naz12C4MIXm3UfdJ19ftUfT59MZnyekBeOPreZ11w+EEtDPqp/XsDwbLcaauZf79HtpJUbU/gE9lSyfZvuyzsAidUqUuHt/jKbOQIUxyCoctPBC7dOt7qL1LVxIu9H32K7vN6hogUfparkxX9dwxIXdhoiVaXM52eDZdH4mDbEEeJudDr6s5DiapubLFY+FjmJO3Jw==",
+        "body": "{\"Records\":[{\"eventVersion\":\"2.1\",\"eventSource\":\"aws:s3\",\"awsRegion\":\"ap-south-1\",\"eventTime\":\"2023-03-09T02:21:09.324Z\",\"eventName\":\"ObjectCreated:Put\",\"userIdentity\":{\"principalId\":\"A2YG7L61S4020A\"},\"requestParameters\":{\"sourceIPAddress\":\"110.227.75.99\"},\"responseElements\":{\"x-amz-request-id\":\"HKFD1BSTP6WAN24E\",\"x-amz-id-2\":\"B20BQwcHyU0D5wCafL3U7WbLwPPS24SSbYx9JMidcANICE+kNXKTOUEz44j74sHR7OAgN6B2Bjs02fzl/3LYgGuEWFRXh99EVFESWB/VlAI=\"},\"s3\":{\"s3SchemaVersion\":\"1.0\",\"configurationId\":\"googlebackups-crud-to-sqs\",\"bucket\":{\"name\":\"gw.googlebackups\",\"ownerIdentity\":{\"principalId\":\"A2YG7L61S4020A\"},\"arn\":\"arn:aws:s3:::gw.googlebackups\"},\"object\":{\"key\":\"2023-03/Takeout/Google+Photos/Lansdowne+-+2019/20191027_090107.jpg.json\",\"size\":986,\"eTag\":\"e3c4337d7d66672f7041d8dbe0c0762e\",\"versionId\":\"VsH2J9dF2LT4ugBWrQEm5c3chGBiYJwU\",\"sequencer\":\"006409429549884F13\"}}}]}",
+        "attributes": {
+          "ApproximateReceiveCount": "4",
+          "SentTimestamp": "1678328470183",
+          "SenderId": "AIDAJNNKV2HIAN5AMAKHG",
+          "ApproximateFirstReceiveTimestamp": "1678328470183"
+        },
+        "messageAttributes": {},
+        "md5OfBody": "b00c121ca23814d3c1e54e16becbe119",
+        "eventSource": "aws:sqs",
+        "eventSourceARN": "arn:aws:sqs:ap-south-1:975795997058:googlebackups-crud",
+        "awsRegion": "ap-south-1"
+      },
+      {
+        "messageId": "53604b7c-f52d-472c-b318-0646b1e0bb51",
+        "receiptHandle": "AQEBAtEGi4kx7tQIaE6/mBywgw/fybfyz1i/a3Z3DZXvQsf7+EtjO0FX94TaRmbrMvHezlcTfnFuraPK+dO3UvO21vpw7BOP3Og00rxUfetHTAs5+siveBsAVgWRBGJjEy+a+DLmoG8mB/twE+o4i5vAJYtGGmung8wWoX//PdyKOCwn0mnY1hehMPy8slsWbVaV4C1Zl/4dYFHkMuNNbrtYHsqAurdD6gUEtg5nim6jkJUS07alLpiWNdVpzySsxGlGKVPmCA2M5Mk9wQ8Y78JVtoodL0M5XPvUglVYbMM+Q/db4ieYMtFDupwb1k1Vycz0zExsEnuevnWMwa0S/yqe05bak95tQVym2iVBmd9dPDMcSeTdXd5ThTJePb+Nctx6co646LV6PO7BuY+Q2e7pPw==",
+        "body": "{\"Records\":[{\"eventVersion\":\"2.1\",\"eventSource\":\"aws:s3\",\"awsRegion\":\"ap-south-1\",\"eventTime\":\"2023-03-09T02:21:15.824Z\",\"eventName\":\"ObjectCreated:Put\",\"userIdentity\":{\"principalId\":\"A2YG7L61S4020A\"},\"requestParameters\":{\"sourceIPAddress\":\"110.227.75.99\"},\"responseElements\":{\"x-amz-request-id\":\"AHWPVGV5F4VPPNQS\",\"x-amz-id-2\":\"l7l2kAqVdOnR7YP3mDEoA4vC9F7leOlifvnW61daK5LLkTtAfmiDLYD6lCeYFw6WTLfG9+pOXUCnr/AcQb16N1uig7RwVAjm7YTbnMzz0gU=\"},\"s3\":{\"s3SchemaVersion\":\"1.0\",\"configurationId\":\"googlebackups-crud-to-sqs\",\"bucket\":{\"name\":\"gw.googlebackups\",\"ownerIdentity\":{\"principalId\":\"A2YG7L61S4020A\"},\"arn\":\"arn:aws:s3:::gw.googlebackups\"},\"object\":{\"key\":\"2023-03/Takeout/Google+Potatos/Kochi+-+2019/20190921_163917.jpg\",\"size\":2040,\"eTag\":\"3fe75f5d932e40d7fd001420e312c2bd\",\"versionId\":\"7lsQ83iNULv2Sx9No.Lo9eY6DRmTG9yR\",\"sequencer\":\"006409429BC609DC72\"}}}]}",
+        "attributes": {
+          "ApproximateReceiveCount": "4",
+          "SentTimestamp": "1678328476759",
+          "SenderId": "AIDAJNNKV2HIAN5AMAKHG",
+          "ApproximateFirstReceiveTimestamp": "1678328476759"
+        },
+        "messageAttributes": {},
+        "md5OfBody": "1e9d7a99be73a95d408509e7765d8b02",
+        "eventSource": "aws:sqs",
+        "eventSourceARN": "arn:aws:sqs:ap-south-1:975795997058:googlebackups-crud",
+        "awsRegion": "ap-south-1"
+      },
+      {
+        "messageId": "61d7afbd-83f7-484d-a509-fb0a1912215a",
+        "receiptHandle": "AQEBJDEmF8prxQKCcVA/fAQwkaac6FXnxCX47/IOhptYaoKLSVx27Vc0vH9URGJvkybTLttid3zvJDcVDm1OIMeNTyNNBz80Qo271VofxcMEgvN7kL78fT0xHSJwPHoOFHaOIbIuTNBGI2m+/vBOTUw55RxKiHaNZeVvV7ackfxiBj0uRcWLug4GIBYY8Mqt60hWY0dyrdCGWHC/Ej79jQDGbh+mMdxvHZbRxZlc+usgh+h2oXuo3NE0jLFHqP5sb+f5rcwIIQczUnwndYND/RLazWRSBurzghXM/pQPr8Z6C5pailu2P3eWoO4XGfIEVYWdT7zgcez2Z86ySIRtX/rdR5s0Ime4sZvSPEWVv2XZcRjURdZHmj7MqCJQCZ66NzLm6CSwqb/IrEq7WRiNYuT2NA==",
+        "body": "{\"Records\":[{\"eventVersion\":\"2.1\",\"eventSource\":\"aws:s3\",\"awsRegion\":\"ap-south-1\",\"eventTime\":\"2023-03-09T02:21:16.902Z\",\"eventName\":\"ObjectCreated:Put\",\"userIdentity\":{\"principalId\":\"A2YG7L61S4020A\"},\"requestParameters\":{\"sourceIPAddress\":\"110.227.75.99\"},\"responseElements\":{\"x-amz-request-id\":\"ZD109QEW4NQ7ERGH\",\"x-amz-id-2\":\"YLJL+C7PayRnGCpTtc1zEKjSR4C7tXH81GyBPKuj6sRSMrnqQMzZtPFjbiS2zZxY+gWxLpojZ5dHNc8Jeq3yHgN1aG/+QX7fNz2v3HQPhAU=\"},\"s3\":{\"s3SchemaVersion\":\"1.0\",\"configurationId\":\"googlebackups-crud-to-sqs\",\"bucket\":{\"name\":\"gw.googlebackups\",\"ownerIdentity\":{\"principalId\":\"A2YG7L61S4020A\"},\"arn\":\"arn:aws:s3:::gw.googlebackups\"},\"object\":{\"key\":\"2023-03/Takeout/Google+Photos/Kochi+-+2019/20190920_214904.jpg.json\",\"size\":987,\"eTag\":\"cf5dcf254ed42ac6c0de2070670b17e7\",\"versionId\":\"EIb90PJTrJ5thscnGwbOG67U1GzzXvWK\",\"sequencer\":\"006409429CDC1854D1\"}}}]}",
+        "attributes": {
+          "ApproximateReceiveCount": "4",
+          "SentTimestamp": "1678328477712",
+          "SenderId": "AIDAJNNKV2HIAN5AMAKHG",
+          "ApproximateFirstReceiveTimestamp": "1678328477712"
+        },
+        "messageAttributes": {},
+        "md5OfBody": "ad5f78a053738c43e7181a088a96103b",
+        "eventSource": "aws:sqs",
+        "eventSourceARN": "arn:aws:sqs:ap-south-1:975795997058:googlebackups-crud",
+        "awsRegion": "ap-south-1"
+      },
+      {
+        "messageId": "7d47687c-cb6a-4d12-9aad-6a3d00bbb853",
+        "receiptHandle": "AQEBZtz+nr4jGFb59xauPOMkZGOv+ylkzE1fXyBlDFIs7SoU79btAJn36FOdonyR6EqBfrfS5l5HCr7hO1M0tMYt/pJrUJ6Kun/CzbWdDSvF3lEQ/0q++KMGiKmjxZORd2gU/TeHoypfu0/qSKbQU2bR9lQhnXTB9/gbfcydv+8cXiLFUcpoN9JsY8z0COhGk7PaIVlTf53CX2T28Qn3eDQghTHHplz14kGThW7QHV5mKNrx+zz1r97J1pgOolVYnim7h96nfAVHwh+40k8m195UU3b0R3LespbsV+lGX7m8Hc/aeZ0HMrYAMtSUgoXQJTUjPAbYO0kuODgK/EC2DjHNgdk4L5bDyHPDSIki4bM94ptWMIrAlsyWUaMgbIrQ3Br62wZPIVeC8k6bhvhiLRdGqQ==",
+        "body": "{\"Records\":[{\"eventVersion\":\"2.1\",\"eventSource\":\"aws:s3\",\"awsRegion\":\"ap-south-1\",\"eventTime\":\"2023-03-09T02:21:28.630Z\",\"eventName\":\"ObjectCreated:Put\",\"userIdentity\":{\"principalId\":\"A2YG7L61S4020A\"},\"requestParameters\":{\"sourceIPAddress\":\"110.227.75.99\"},\"responseElements\":{\"x-amz-request-id\":\"K5GFAGNQ299SZECS\",\"x-amz-id-2\":\"IbprouPGkaISDrEhr/iw0pj9IfkfjaAYMpmMIvj5m0XN/PFqXlyF2nbEJUWkEkzx0yevLEP0gJ78pN54dhv1jm1r708gfpdm\"},\"s3\":{\"s3SchemaVersion\":\"1.0\",\"configurationId\":\"googlebackups-crud-to-sqs\",\"bucket\":{\"name\":\"gw.googlebackups\",\"ownerIdentity\":{\"principalId\":\"A2YG7L61S4020A\"},\"arn\":\"arn:aws:s3:::gw.googlebackups\"},\"object\":{\"key\":\"2023-03/Takeout/Google+Photos/Mumbai+2021/20210926_183542.jpg\",\"size\":2396983,\"eTag\":\"d56b422a1bb857f3eab77cc4d082d1f0\",\"versionId\":\"oWxVMOfiQGLAlh70OKPD9OgxJmh2B_Ct\",\"sequencer\":\"00640942A887CAF734\"}}}]}",
+        "attributes": {
+          "ApproximateReceiveCount": "4",
+          "SentTimestamp": "1678328489248",
+          "SenderId": "AIDAJNNKV2HIAN5AMAKHG",
+          "ApproximateFirstReceiveTimestamp": "1678328489248"
+        },
+        "messageAttributes": {},
+        "md5OfBody": "617b2a6838a2ab7bb8a598401459ccc8",
+        "eventSource": "aws:sqs",
+        "eventSourceARN": "arn:aws:sqs:ap-south-1:975795997058:googlebackups-crud",
+        "awsRegion": "ap-south-1"
+      },
+      {
+        "messageId": "016c9557-8701-4137-9ca6-8a10754d0032",
+        "receiptHandle": "AQEBX+MBAmpgAWWg+41Tln7BUqu+eLJlTQq0fj/8Se2GNrzySA7dkj9afea92JjDQGXaTZwE7vOcVnsH4cyxYeD0XQGgUReXcH9xNHc50Nmdis2lZliCj850dBijtGDOmMzlIHGCHaPT9IHx8OxvetboPVU/38IqXrLH2UkclnnKRrgxDboOgTeZrtb+regvcfnf/uMmWHSK/+WugDRDjelXaqIBMf9v3391famtE2+sFR498xOp1jUpanvhAtoREFgg1tsVsWYg2eykVEUCPt2GCQBH8Vsj9+pC+A3xmWED9wCsZD6bs/PzRWLaLf/yF3vXZauLOJ4k+nwV9HTajEMHyHWuyLZBAsG8Afxv01MpMY64dGUPAiKLWVw3xn96+bELia2ualPtpOZmWCE8iz+ceA==",
+        "body": "{\"Records\":[{\"eventVersion\":\"2.1\",\"eventSource\":\"aws:s3\",\"awsRegion\":\"ap-south-1\",\"eventTime\":\"2023-03-09T02:21:34.780Z\",\"eventName\":\"ObjectCreated:Put\",\"userIdentity\":{\"principalId\":\"A2YG7L61S4020A\"},\"requestParameters\":{\"sourceIPAddress\":\"110.227.75.99\"},\"responseElements\":{\"x-amz-request-id\":\"E2YWKDVY2KFE1ACS\",\"x-amz-id-2\":\"E3xgEABIfag2lcHeZ56B4JDNg8kYag7w1kq7SPAq/7PeBdHMppqnbU8hqqudwMOQU+lFe6cqTdyTwbPMCh7K3a0I9okxlTqq\"},\"s3\":{\"s3SchemaVersion\":\"1.0\",\"configurationId\":\"googlebackups-crud-to-sqs\",\"bucket\":{\"name\":\"gw.googlebackups\",\"ownerIdentity\":{\"principalId\":\"A2YG7L61S4020A\"},\"arn\":\"arn:aws:s3:::gw.googlebackups\"},\"object\":{\"key\":\"2023-03/Takeout/Google+Photos/Mumbai+2021/20211002_181534.jpg\",\"size\":988,\"eTag\":\"dd66fe5eb728076599aa8e517bdeab70\",\"versionId\":\"fBWTepJazKkYV7PpIKUY8IRxlGNmHkmh\",\"sequencer\":\"00640942AEBCE70684\"}}}]}",
+        "attributes": {
+          "ApproximateReceiveCount": "4",
+          "SentTimestamp": "1678328495280",
+          "SenderId": "AIDAJNNKV2HIAN5AMAKHG",
+          "ApproximateFirstReceiveTimestamp": "1678328495280"
+        },
+        "messageAttributes": {},
+        "md5OfBody": "1c79659fb166dbae044c5d6d390122e8",
+        "eventSource": "aws:sqs",
+        "eventSourceARN": "arn:aws:sqs:ap-south-1:975795997058:googlebackups-crud",
+        "awsRegion": "ap-south-1"
+      },
+      {
+        "messageId": "ab7d2487-f6e7-4737-b83d-ae1601401c65",
+        "receiptHandle": "AQEBYE4GNm84mDtOX/PZstMOybSiTEby/stGHPt8tbSmcS/rozzzXuc3s+roMw6LwNhcGnvb+u0n+DB/QO8HkcWBaI9pvwxTBSoAy2ZSXkQdPTglWszofWZhWkgSrNIZ7yu5+lBRuyRAEYJWAnbiG1coX5aUm9Q1gz+KVxZN4X3vILWMVCj2AAGWmitPetWQwGpvsrRlWDEJo/jIjAUdWDP5GS4WHFeTyztJ/PNl5PHbpn08TlWfUpAJt5Cju9/RbBDiXNDTQsPtVnNQX4k4UuWoysSAaEvUPEvfzEIwYYvOldACnGa7PjlI6PTBXwsn2srulxJqCWHH2quOYUeGf0sTZsD8fx3ikDNnVgjeIvcSMOqkgcLQK5So+Cad03GQ7fnKHkmAfXFQkGhwYwldWlkEAA==",
+        "body": "{\"Records\":[{\"eventVersion\":\"2.1\",\"eventSource\":\"aws:s3\",\"awsRegion\":\"ap-south-1\",\"eventTime\":\"2023-03-09T02:21:39.224Z\",\"eventName\":\"ObjectCreated:Put\",\"userIdentity\":{\"principalId\":\"A2YG7L61S4020A\"},\"requestParameters\":{\"sourceIPAddress\":\"110.227.75.99\"},\"responseElements\":{\"x-amz-request-id\":\"EF6CX87C8PCK1GP0\",\"x-amz-id-2\":\"4EAeewvP6lDmfyThX32a9KvEF70VcdM1cxmP6hZAse+wR2NQXqL004tpy2QmegFhxAfVNriY9ulwg9agUE4ji7rccmXtD9sj\"},\"s3\":{\"s3SchemaVersion\":\"1.0\",\"configurationId\":\"googlebackups-crud-to-sqs\",\"bucket\":{\"name\":\"gw.googlebackups\",\"ownerIdentity\":{\"principalId\":\"A2YG7L61S4020A\"},\"arn\":\"arn:aws:s3:::gw.googlebackups\"},\"object\":{\"key\":\"2023-03/Takeout/Google+Photos/Mumbai+2021/20210918_152643.jpg.json\",\"size\":988,\"eTag\":\"4a38782c95cd4fa780799543118e09b1\",\"versionId\":\"N7a6IKg12mVwdMI.bMBzE.iFgBF.Wrei\",\"sequencer\":\"00640942B33554ABC7\"}}}]}",
+        "attributes": {
+          "ApproximateReceiveCount": "4",
+          "SentTimestamp": "1678328499807",
+          "SenderId": "AIDAJNNKV2HIAN5AMAKHG",
+          "ApproximateFirstReceiveTimestamp": "1678328499807"
+        },
+        "messageAttributes": {},
+        "md5OfBody": "d5aaca19f1609bc3ba712e2eaf3ca4ee",
+        "eventSource": "aws:sqs",
+        "eventSourceARN": "arn:aws:sqs:ap-south-1:975795997058:googlebackups-crud",
+        "awsRegion": "ap-south-1"
+      }
+    ]
+  }
